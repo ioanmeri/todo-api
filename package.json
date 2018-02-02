@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+<<<<<<< HEAD
   "author": "Ioan Meri",
+=======
+  "author": "I Mer",
+>>>>>>> 867f4b11909226973eb3af39dd7cb1eee4154e4a
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
