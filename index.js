@@ -15,6 +15,7 @@ app.get('/', function(req, res){
    res.sendFile("index.html");
 });
 
+//use the api routers
 app.use('/api/todos', todoRoutes);
 
 app.get("*", function(req, res){

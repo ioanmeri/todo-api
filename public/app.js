@@ -1,5 +1,6 @@
 /* global $ */
 $(document).ready(function(){
+  //ajax call to get all todos
   $.getJSON("/api/todos")
   .then(displayTodos)
   .catch(handleError);
